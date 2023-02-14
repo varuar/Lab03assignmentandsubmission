@@ -6,6 +6,7 @@ the inner loop (while loop with iterate2) runs n times. Therefore, the total num
 The operations within each iteration are constant time operations, so the overall time complexity is O(n^2).
 
 #Problem 2) You have 20 M&M's bags. 19 bags have 1.0 gram pieces, but one has 1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bag? You can only use the scale once.  30% Please describe your solution using a MS Word document.
+
 To find the heavy bag with only one use of the scale, we can use the following method:
 Take 10 M&Ms from each of the 20 bags, for a total of 200 M&Ms.
 Put the 200 M&Ms on the scale and weigh them.
